@@ -7,10 +7,17 @@
         "Filter",
         "Mongo DB"
     ],
-    "website": "https://github.com/CrazyBotsz",
-    "repository": "https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2",
+    "website": "https://github.com/Aneeb121/Adv-Auto-Filter-Bot-V2",
+    "repository": "https://github.com/Aneeb121/Adv-Auto-Filter-Bot-V2",
     "success_url": "https://telegram.dog/CrazyBotsz",
-    "env": {
+    "env":},
+
+        "AUTH_CHANNEL": {
+
+            "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+
+            "required": false
+        },                                                                                                                                  v{
         "APP_ID": {
             "description": "Your APP ID From my.telegram.org or @UseTGXBot",
             "value": ""
